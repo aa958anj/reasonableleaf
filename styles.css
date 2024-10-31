@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f4f8;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .controls {
+    margin: 20px 0;
+  }
+  
+  select, input[type="date"], button {
+    margin: 5px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .leaf {
+    font-size: 100px;
+    transition: color 0.5s ease;
+    margin-top: 20px;
+  }
+  

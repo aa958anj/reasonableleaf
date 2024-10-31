@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fall Maple Leaf Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Fall Maple Leaf Tracker</h1>
+    <div class="controls">
+      <label for="location">Select Location:</label>
+      <select id="location">
+        <option value="northeast">Northeast</option>
+        <option value="midwest">Midwest</option>
+        <option value="south">South</option>
+        <option value="west">West</option>
+      </select>
+
+      <label for="date">Select Date:</label>
+      <input type="date" id="date" />
+
+      <button onclick="updateLeafColor()">Check Leaf Color</button>
+    </div>
+
+    <div class="leaf" id="leaf">🍁</div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
 
